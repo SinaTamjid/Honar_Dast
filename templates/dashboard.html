@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>هنر دست</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="فروشگاه عرضه انواع صنایع دستی اعم از : لوازم چوبی، میناکاری، فیروزه کوبی، مسی و غیره" />
+		<meta
+			name="keywords"
+			content="حصیربافی ,ظروف مسی, ظروف میناکاری, خاتم کاری, فیروزه کوبی, ترمه دوزی, لوازم چوبی, جواهرات, فرش بافی, سفالگری, آبگینه" />
+		<meta name="author" content="Arman Birjandi, sina tamjid" />
+		<link rel="shortcut icon" href="./img/Logo.ico" type="image/x-icon" />
+		<!-- <link href="./css/main.css" rel="stylesheet" /> -->
+		<link href="./css/dashboard.css" rel="stylesheet" />
+		<link href="./vendor/fontawesome/css/all.min.css" rel="stylesheet" />
+		<link href="./vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<main class="main">
+			<div class="Contents flex flex-row justify-center items-start">
+				<div
+					class="navigation bg-[#3a3a3a] w-[12%] pb-[557px] relative flex flex-col justify-center items-center">
+					<img class="w-16 h-16 mt-4" src="./img/Logo.png" alt="logo" />
+					<ul class="w-full px-3 mt-12">
+						<li
+							class="mt-[9.2px] flex flex-row justify-start items-center rounded-md transition-all cursor-pointer hover:bg-[#2ea4c2] group">
+							<a
+								class="w-full p-5 font-[IranYekanMedium] text-white flex flex-row justify-start items-center group-hover:text-black"
+								href="#!">
+								<i class="fa-regular fa-chart-tree-map pl-3"></i>
+								میزکار
+							</a>
+						</li>
+						<li
+							class="mt-8 flex flex-row justify-start items-center rounded-md transition-all cursor-pointer hover:bg-[#2ea4c2] group">
+							<a
+								class="w-full p-5 font-[IranYekanMedium] text-white flex flex-row justify-start items-center group-hover:text-black"
+								href="./products.html">
+								<i class="fa-regular fa-box pl-3"></i>
+								محصولات
+							</a>
+						</li>
+						<li
+							class="mt-8 flex flex-row justify-start items-center rounded-md transition-all cursor-pointer hover:bg-[#2ea4c2] group">
+							<a
+								class="w-full p-5 font-[IranYekanMedium] text-white flex flex-row justify-start items-center group-hover:text-black"
+								href="./buy.html">
+								<i class="fa-regular fa-bag-shopping pl-3"></i>
+								سبد خرید
+							</a>
+						</li>
+						<li
+							class="mt-8 flex flex-row justify-start items-center rounded-md transition-all cursor-pointer hover:bg-[#2ea4c2] group">
+							<a
+								class="w-full p-5 font-[IranYekanMedium] text-white flex flex-row justify-start items-center group-hover:text-black"
+								href="./submit.html">
+								<i class="fa-regular fa-star pl-3"></i>
+								ثبت نظرات
+							</a>
+						</li>
+						<li
+							class="mt-8 flex flex-row justify-start items-center rounded-md transition-all cursor-pointer hover:bg-[#2ea4c2] group">
+							<a
+								class="w-full p-5 font-[IranYekanMedium] text-white flex flex-row justify-start items-center group-hover:text-black"
+								href="./index.html#facil">
+								<i class="fa-regular fa-users pl-3"></i>
+								درباره ما
+							</a>
+						</li>
+					</ul>
+					<label
+						class="switch w-3 h-7 text-[17px] absolute bottom-8 right-7 inline-block">
+						<input class="opacity-0 w-0 h-0" type="checkbox" />
+						<span
+							class="slider w-14 bg-[#1e6889] absolute inset-0 transition-all rounded-full cursor-pointer before:content-[''] before:absolute before:w-5 before:h-5 before:rounded-full before:left-[10%] before:bottom-[13%] before:shadow-[inset_8px_-4px_0px_0px_#fff] before:bg-[#1e6889] before:transition-all"></span>
+					</label>
+				</div>
+				<div
+					class="content bg-[#8b8b8b] w-[88%] py-3 flex flex-col justify-start items-center">
+					<div
+						class="first_content w-full flex flex-row justify-between items-center">
+						<div
+							class="first_content w-1/2 pr-5 flex flex-row justify-center items-center order-1">
+							<form class="w-full" action="" method="post">
+								<input
+									class="w-full shadow-lg h-9 p-3 text-sm rounded-s-md font-[IranYekanMedium] border-0 outline-none dark:bg-[#1d1d1d]"
+									type="text"
+									name="search"
+									placeholder="جستجو" />
+							</form>
+							<a
+								class="h-9 bg-[#2ea4c2] shadow-lg p-2 relative border-none rounded-e-md flex flex-row justify-center items-center transition-all hover:bg-[#1e6889] hover:text-white"
+								href="#!">
+								<i class="fa-regular fa-magnifying-glass"></i>
+							</a>
+						</div>
+						<div
+							class="icon w-1/4 flex flex-row justify-end items-center order-2">
+							<img
+								class="rounded-full shadow-lg w-8 m-3 ml-5 order-4"
+								src="./img/user.jpg"
+								alt="user" />
+							<a
+								class="rounded-lg w-10 h-10 bg-[#2ea4c2] p-2 ml-3 shadow-lg text-center relative transition-all hover:bg-[#1e6889] hover:text-white order-3"
+								href="#!">
+								<i class="fa-regular fa-bell"></i>
+								<span
+									class="rounded-full w-5 h-5 p-0.5 text-white text-center text-sm absolute -top-2 -right-2 font-[IranYekanBold] bg-[#e29fb5] flex flex-col justify-center items-center z-20 before:content-[''] before:absolute before:inset-0 before:rounded-full before:m-auto before:bg-[#e29fb5] before:-z-10 before:animate-ping"
+									>5</span
+								>
+							</a>
+							<a
+								class="rounded-lg w-10 h-10 bg-[#2ea4c2] p-2 ml-3 shadow-lg text-center relative transition-all hover:bg-[#1e6889] hover:text-white order-3"
+								href="#!">
+								<i class="fa-regular fa-comment-dots"></i>
+								<span
+									class="rounded-full w-5 h-5 p-0.5 text-white text-center text-sm absolute -top-2 -right-2 font-[IranYekanBold] bg-[#e29fb5] flex flex-col justify-center items-center z-20 before:content-[''] before:absolute before:inset-0 before:rounded-full before:m-auto before:bg-[#e29fb5] before:-z-10 before:animate-ping"
+									>5</span
+								>
+							</a>
+							<a
+								class="rounded-lg w-10 h-10 bg-[#2ea4c2] p-2 ml-3 shadow-lg text-center relative transition-all hover:bg-[#1e6889] hover:text-white order-3"
+								href="#!">
+								<i class="fa-regular fa-gift"></i>
+								<span
+									class="rounded-full w-5 h-5 p-0.5 text-white text-center text-sm absolute -top-2 -right-2 font-[IranYekanBold] bg-[#e29fb5] flex flex-col justify-center items-center z-20 before:content-[''] before:absolute before:inset-0 before:rounded-full before:m-auto before:bg-[#e29fb5] before:-z-10 before:animate-ping"
+									>5</span
+								>
+							</a>
+						</div>
+					</div>
+					<div
+						class="second_content w-full pr-5 pt-3 flex flex-row justify-start items-center">
+						<div
+							class="welcom w-2/5 h-40 p-5 bg-white dark:bg-[#1d1d1d] dark:text-white rounded-3xl flex flex-col justify-center items-start">
+							<h4 class="font-[IranYekanBold] text-xl">
+								<span class="username font-bold">{{ user.fullname }}</span>
+								عزیز خوش آمدید
+							</h4>
+							<p class="pt-5 font-[IranYekanMedium] text-sm">
+								به وبسایت تخصصی فروش صنایع دستی کشور خوش آمدید
+							</p>
+							<p class="time pt-5 font-[IranYekanBold]">
+								امروز :
+								<span class="date"></span>
+								<span class="full_date"></span>
+								&nbsp;&nbsp;&nbsp;
+								<span class="time"></span>
+							</p>
+						</div>
+						<div
+							class="statistic_1 w-1/4 h-40 p-3 mr-5 bg-white dark:bg-[#1d1d1d] rounded-3xl flex flex-row justify-center items-center">
+							<div
+								class="icon w-20 h-20 rounded-md text-white bg-[#1e6889] flex flex-row justify-center items-center">
+								<i class="fa-regular fa-arrow-down-wide-short text-[40px]"></i>
+							</div>
+							<div
+								class="content pr-5 flex flex-col justify-center items-start">
+								<h4 class="font-[IranYekanBold] dark:text-white">
+									مجموع سفارش ها
+								</h4>
+								<h3
+									class="pt-2 font-[IranYekanBold] text-xl font-semibold text-[#2ea4c2]">
+									10
+								</h3>
+								<p
+									class="pt-1 font-[IranYekanMedium] text-[13px] dark:text-white">
+									امروز
+								</p>
+							</div>
+						</div>
+						<div
+							class="statistic_2 w-1/4 h-40 p-3 mr-3 bg-white dark:bg-[#1d1d1d] rounded-3xl flex flex-row justify-center items-center">
+							<div
+								class="icon w-20 h-20 rounded-md text-white bg-[#1e6889] flex flex-row justify-center items-center">
+								<i class="fa-regular fa-box-circle-check text-[40px]"></i>
+							</div>
+							<div
+								class="content pr-5 flex flex-col justify-center items-start">
+								<h4 class="font-[IranYekanBold] dark:text-white">تکمیل شده</h4>
+								<h3
+									class="pt-2 font-[IranYekanBold] text-xl font-semibold text-[#2ea4c2]">
+									7
+								</h3>
+								<p
+									class="pt-1 font-[IranYekanMedium] text-[13px] dark:text-white">
+									امروز
+								</p>
+							</div>
+						</div>
+						<div
+							class="statistic_3 w-1/4 h-40 p-3 mr-3 bg-white dark:bg-[#1d1d1d] rounded-3xl flex flex-row justify-center items-center">
+							<div
+								class="icon w-20 h-20 rounded-md text-white bg-[#1e6889] flex flex-row justify-center items-center">
+								<i class="fa-regular fa-file-slash text-[40px]"></i>
+							</div>
+							<div
+								class="content pr-5 flex flex-col justify-center items-start">
+								<h4 class="font-[IranYekanBold] dark:text-white">لغو شده</h4>
+								<h3
+									class="pt-2 font-[IranYekanBold] text-xl font-semibold text-[#2ea4c2]">
+									3
+								</h3>
+								<p
+									class="pt-1 font-[IranYekanMedium] text-[13px] dark:text-white">
+									امروز
+								</p>
+							</div>
+						</div>
+						<div
+							class="statistic_4 w-1/4 h-40 p-3 mr-3 ml-5 bg-white dark:bg-[#1d1d1d] rounded-3xl flex flex-row justify-center items-center">
+							<div
+								class="icon w-20 h-20 rounded-md text-white bg-[#1e6889] flex flex-row justify-center items-center">
+								<i class="fa-regular fa-bags-shopping text-[40px]"></i>
+							</div>
+							<div
+								class="content pr-5 flex flex-col justify-center items-start">
+								<h4 class="font-[IranYekanBold] dark:text-white">
+									مبلغ سفارش ها
+								</h4>
+								<h3
+									class="pt-2 font-[IranYekanBold] text-xl font-semibold text-[#2ea4c2]">
+									19,876,000
+									<span class="text-sm">تومان</span>
+								</h3>
+								<p
+									class="pt-1 font-[IranYekanMedium] text-[13px] dark:text-white">
+									امروز
+								</p>
+							</div>
+						</div>
+					</div>
+					<div
+						class="third_content w-full flex flex-row justify-start items-center">
+						<div
+							class="orders w-1/3 h-[426px] p-5 mr-5 mt-5 bg-white dark:bg-[#1d1d1d] dark:text-white rounded-3xl flex flex-col justify-center items-start font-[IranYekanBold]">
+							<h4 class="text-xl">سفارش ها</h4>
+							<div class="chart w-full h-full pb-2 mt-7">
+								<canvas id="chart"></canvas>
+							</div>
+						</div>
+						<div
+							class="prof w-2/3 p-5 mx-5 mt-5 bg-white dark:bg-[#1d1d1d] rounded-3xl flex flex-col justify-center items-start gap-12">
+							<h4 class="font-[IranYekanBold] text-xl dark:text-white">
+								پروفایل
+							</h4>
+							<div
+								class="Contents w-full flex flex-row justify-between items-start">
+								<div class="content_1 w-3/4 font-[IranYekanMedium]">
+									<form
+										class="form flex flex-row justify-start items-center flex-wrap"
+										action=""
+										method="post">
+										<div class="wave-group w-1/4 pr-5 relative">
+											<input
+												type="text"
+												class="input text-lg py-2.5 pr-2.5 pl-1.5 block w-full border-0 border-b border-solid border-[#3a3a3a] bg-transparent focus:outline-none dark:text-white"
+												id="fullName"
+												name="fullName"
+												value="{{ user.fullname }}"
+												required />
+											<span
+												class="bar relative block after:content-[''] after:h-0.5 after:w-0 after:bottom-[1px] after:absolute after:bg-[#2ea4c2] after:transition-all after:right-1/2 before:content-[''] before:h-0.5 before:w-0 before:bottom-[1px] before:absolute before:bg-[#2ea4c2] before:transition-all before:left-1/2"></span>
+											<label
+												class="label text-[#8b8b8b] dark:text-[#c7c7c7] text-[16px] font-normal absolute pointer-events-none left-3 top-1.5 flex">
+												<span
+													class="label-char transition-all"
+													style="--index: 0"
+													><span class="text-pink-900">*</span> نام و نام
+													خانوادگی</span
+												>
+											</label>
+										</div>
+										<div class="wave-group w-1/4 pr-5 relative">
+											<input
+												type="text"
+												class="input text-lg py-2.5 pr-2.5 pl-1.5 block w-full border-0 border-b border-solid border-[#3a3a3a] bg-transparent focus:outline-none dark:text-white"
+												id="username"
+												name="username"
+												value="{{ user.username }}"
+												required />
+											<span
+												class="bar relative block after:content-[''] after:h-0.5 after:w-0 after:bottom-[1px] after:absolute after:bg-[#2ea4c2] after:transition-all after:right-1/2 before:content-[''] before:h-0.5 before:w-0 before:bottom-[1px] before:absolute before:bg-[#2ea4c2] before:transition-all before:left-1/2"></span>
+											<label
+												class="label text-[#8b8b8b] dark:text-[#c7c7c7] text-[16px] font-normal absolute pointer-events-none left-3 top-1.5 flex">
+												<span
+													class="label-char transition-all"
+													style="--index: 0"
+													><span class="text-pink-900">*</span> نام کاربری
+												</span>
+											</label>
+										</div>
+										<div class="wave-group w-1/2 pr-5 relative">
+											<input
+												type="email"
+												class="input text-lg py-2.5 pr-2.5 pl-1.5 block w-full border-0 border-b border-solid border-[#3a3a3a] bg-transparent focus:outline-none dark:text-white"
+												id="email"
+												name="email"
+												value="{{ user.email }}"
+												required />
+											<span
+												class="bar relative block after:content-[''] after:h-0.5 after:w-0 after:bottom-[1px] after:absolute after:bg-[#2ea4c2] after:transition-all after:right-1/2 before:content-[''] before:h-0.5 before:w-0 before:bottom-[1px] before:absolute before:bg-[#2ea4c2] before:transition-all before:left-1/2"></span>
+											<label
+												class="label text-[#8b8b8b] dark:text-[#c7c7c7] text-[16px] font-normal absolute pointer-events-none left-3 top-1.5 flex">
+												<span
+													class="label-char transition-all"
+													style="--index: 0"
+													><span class="text-pink-900">*</span> ایمیل
+												</span>
+											</label>
+										</div>
+										<div class="wave-group w-1/2 pr-5 mt-7 relative">
+											<input
+												type="password"
+												class="input text-lg py-2.5 pr-2.5 pl-1.5 block w-full border-0 border-b border-solid border-[#3a3a3a] bg-transparent focus:outline-none dark:text-white"
+												id="pass"
+												name="pass"
+												value="{{ user.pass }}"
+												required />
+											<span
+												class="bar relative block after:content-[''] after:h-0.5 after:w-0 after:bottom-[1px] after:absolute after:bg-[#2ea4c2] after:transition-all after:right-1/2 before:content-[''] before:h-0.5 before:w-0 before:bottom-[1px] before:absolute before:bg-[#2ea4c2] before:transition-all before:left-1/2"></span>
+											<label
+												class="label text-[#8b8b8b] dark:text-[#c7c7c7] text-[16px] font-normal absolute pointer-events-none left-3 top-1.5 flex">
+												<span
+													class="label-char transition-all"
+													style="--index: 0"
+													><span class="text-pink-900">*</span> رمز عبور
+												</span>
+											</label>
+											<button
+												type="button"
+												class="show_pass w-6 h-6 absolute right-7 top-1">
+												<svg
+													id="eye2"
+													class="absolute hidden w-[23px] h-[23px]"
+													xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 576 512">
+													<path
+														d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+												</svg>
+												<svg
+													id="eye-slash2"
+													class="absolute"
+													xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 640 512">
+													<path
+														d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zm151 118.3C226 97.7 269.5 80 320 80c65.2 0 118.8 29.6 159.9 67.7C518.4 183.5 545 226 558.6 256c-12.6 28-36.6 66.8-70.9 100.9l-53.8-42.2c9.1-17.6 14.2-37.5 14.2-58.7c0-70.7-57.3-128-128-128c-32.2 0-61.7 11.9-84.2 31.5l-46.1-36.1zM394.9 284.2l-81.5-63.9c4.2-8.5 6.6-18.2 6.6-28.3c0-5.5-.7-10.9-2-16c.7 0 1.3 0 2 0c44.2 0 80 35.8 80 80c0 9.9-1.8 19.4-5.1 28.2zm51.3 163.3l-41.9-33C378.8 425.4 350.7 432 320 432c-65.2 0-118.8-29.6-159.9-67.7C121.6 328.5 95 286 81.4 256c8.3-18.4 21.5-41.5 39.4-64.8L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5zm-88-69.3L302 334c-23.5-5.4-43.1-21.2-53.7-42.3l-56.1-44.2c-.2 2.8-.3 5.6-.3 8.5c0 70.7 57.3 128 128 128c13.3 0 26.1-2 38.2-5.8z" />
+												</svg>
+											</button>
+										</div>
+										<div class="wave-group w-1/2 pr-5 mt-7 relative">
+											<input
+												type="password"
+												class="input text-lg py-2.5 pr-2.5 pl-1.5 block w-full border-0 border-b border-solid border-[#3a3a3a] bg-transparent focus:outline-none dark:text-white"
+												id="re-pass"
+												name="re-pass"
+												value="{{ user.pass }}"
+												required />
+											<span
+												class="bar relative block after:content-[''] after:h-0.5 after:w-0 after:bottom-[1px] after:absolute after:bg-[#2ea4c2] after:transition-all after:right-1/2 before:content-[''] before:h-0.5 before:w-0 before:bottom-[1px] before:absolute before:bg-[#2ea4c2] before:transition-all before:left-1/2"></span>
+											<label
+												class="label text-[#8b8b8b] dark:text-[#c7c7c7] text-[16px] font-normal absolute pointer-events-none left-3 top-1.5 flex">
+												<span
+													class="label-char transition-all"
+													style="--index: 0"
+													><span class="text-pink-900">*</span> تکرار رمز عبور
+												</span>
+											</label>
+											<button
+												type="button"
+												class="show_pass w-6 h-6 absolute right-7 top-1">
+												<svg
+													id="eye3"
+													class="absolute hidden w-[23px] h-[23px]"
+													xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 576 512">
+													<path
+														d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+												</svg>
+												<svg
+													id="eye-slash3"
+													class="absolute"
+													xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 640 512">
+													<path
+														d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zm151 118.3C226 97.7 269.5 80 320 80c65.2 0 118.8 29.6 159.9 67.7C518.4 183.5 545 226 558.6 256c-12.6 28-36.6 66.8-70.9 100.9l-53.8-42.2c9.1-17.6 14.2-37.5 14.2-58.7c0-70.7-57.3-128-128-128c-32.2 0-61.7 11.9-84.2 31.5l-46.1-36.1zM394.9 284.2l-81.5-63.9c4.2-8.5 6.6-18.2 6.6-28.3c0-5.5-.7-10.9-2-16c.7 0 1.3 0 2 0c44.2 0 80 35.8 80 80c0 9.9-1.8 19.4-5.1 28.2zm51.3 163.3l-41.9-33C378.8 425.4 350.7 432 320 432c-65.2 0-118.8-29.6-159.9-67.7C121.6 328.5 95 286 81.4 256c8.3-18.4 21.5-41.5 39.4-64.8L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5zm-88-69.3L302 334c-23.5-5.4-43.1-21.2-53.7-42.3l-56.1-44.2c-.2 2.8-.3 5.6-.3 8.5c0 70.7 57.3 128 128 128c13.3 0 26.1-2 38.2-5.8z" />
+												</svg>
+											</button>
+										</div>
+										<div class="wave-group w-1/3 pr-5 mt-7 relative">
+											<input
+												type="tel"
+												class="input text-lg py-2.5 pr-2.5 pl-1.5 block w-full border-0 border-b border-solid border-[#3a3a3a] bg-transparent focus:outline-none dark:text-white"
+												id="tel"
+												name="tel"
+												value="{{ user.tel }}"
+												required />
+											<span
+												class="bar relative block after:content-[''] after:h-0.5 after:w-0 after:bottom-[1px] after:absolute after:bg-[#2ea4c2] after:transition-all after:right-1/2 before:content-[''] before:h-0.5 before:w-0 before:bottom-[1px] before:absolute before:bg-[#2ea4c2] before:transition-all before:left-1/2"></span>
+											<label
+												class="label text-[#8b8b8b] dark:text-[#c7c7c7] text-[16px] font-normal absolute pointer-events-none left-3 top-1.5 flex">
+												<span
+													class="label-char transition-all"
+													style="--index: 0"
+													><span class="text-pink-900">*</span> تلفن همراه
+												</span>
+											</label>
+										</div>
+										<div class="wave-group w-1/3 pr-5 mt-7 relative">
+											<input
+												type="number"
+												class="input text-lg py-2.5 pr-2.5 pl-1.5 block w-full border-0 border-b border-solid border-[#3a3a3a] bg-transparent focus:outline-none dark:text-white"
+												id="postcode"
+												name="postcode"
+												value="{{ user.postcode }}"
+												required />
+											<span
+												class="bar relative block after:content-[''] after:h-0.5 after:w-0 after:bottom-[1px] after:absolute after:bg-[#2ea4c2] after:transition-all after:right-1/2 before:content-[''] before:h-0.5 before:w-0 before:bottom-[1px] before:absolute before:bg-[#2ea4c2] before:transition-all before:left-1/2"></span>
+											<label
+												class="label text-[#8b8b8b] dark:text-[#c7c7c7] text-[16px] font-normal absolute pointer-events-none left-3 top-1.5 flex">
+												<span
+													class="label-char transition-all"
+													style="--index: 0"
+													><span class="text-pink-900">*</span> کد پستی
+												</span>
+											</label>
+										</div>
+										<div class="wave-group w-1/3 pr-5 mt-7 relative">
+											<input
+												type="text"
+												class="input text-lg py-2.5 pr-2.5 pl-1.5 block w-full border-0 border-b border-solid border-[#3a3a3a] bg-transparent focus:outline-none dark:text-white"
+												id="city"
+												name="city"
+												value="{{ user.city }}"
+												required />
+											<span
+												class="bar relative block after:content-[''] after:h-0.5 after:w-0 after:bottom-[1px] after:absolute after:bg-[#2ea4c2] after:transition-all after:right-1/2 before:content-[''] before:h-0.5 before:w-0 before:bottom-[1px] before:absolute before:bg-[#2ea4c2] before:transition-all before:left-1/2"></span>
+											<label
+												class="label text-[#8b8b8b] dark:text-[#c7c7c7] text-[16px] font-normal absolute pointer-events-none left-3 top-1.5 flex">
+												<span
+													class="label-char transition-all"
+													style="--index: 0"
+													>استان / شهرستان</span
+												>
+											</label>
+										</div>
+										<div class="wave-group w-1/2 pr-5 mt-7 relative">
+											<input
+												type="address"
+												class="input text-lg py-2.5 pr-2.5 pl-1.5 block w-full border-0 border-b border-solid border-[#3a3a3a] bg-transparent focus:outline-none dark:text-white"
+												id="address"
+												name="address"
+												value="{{ user.address }}"
+												required />
+											<span
+												class="bar relative block after:content-[''] after:h-0.5 after:w-0 after:bottom-[1px] after:absolute after:bg-[#2ea4c2] after:transition-all after:right-1/2 before:content-[''] before:h-0.5 before:w-0 before:bottom-[1px] before:absolute before:bg-[#2ea4c2] before:transition-all before:left-1/2"></span>
+											<label
+												class="label text-[#8b8b8b] dark:text-[#c7c7c7] text-[16px] font-normal absolute pointer-events-none left-3 top-1.5 flex">
+												<span
+													class="label-char transition-all"
+													style="--index: 0"
+													><span class="text-pink-900">*</span> آدرس
+												</span>
+											</label>
+										</div>
+										<div
+											class="w-1/2 pt-7 flex flex-row justify-end items-center">
+											<input
+												class="bg-[#2ea4c2] text-zinc-800 text-lg p-2 mt-5 ml-8 rounded-md w-32 transition-all cursor-pointer hover:bg-[#1e6889] hover:text-white"
+												type="submit"
+												id="signup"
+												name="signup"
+												value="ذخیره" />
+										</div>
+									</form>
+								</div>
+								<div class="content_2 w-1/4 mr-3">
+									<div
+										class="image-preview border border-solid border-slate-700 rounded-2xl w-full h-full relative flex flex-col justify-center items-center overflow-hidden"
+										id="imagePreview">
+										<div
+											class="primary_content flex flex-col justify-center items-center">
+											<img
+												class="w-full h-full object-contain rounded-2xl"
+												src="./img/prof.png"
+												alt="prof" />
+										</div>
+										<i
+											class="fa-regular fa-plus-large text-white text-6xl absolute inset-0 opacity-0 transition-all m-auto"
+											id="svg"></i>
+										<img
+											src="#!"
+											alt="Image Preview"
+											class="image-preview__image w-full h-full m-auto absolute inset-0 object-cover opacity-0 transition-all" />
+										<div
+											class="loader w-full h-full opacity-0 bg-[#c2c2c2] transition-all absolute flex justify-center items-center z-10 after:content-[''] after:w-12 after:h-12 after:rounded-full after:animate-spin after:block after:absolute after:inset-0 after:m-auto after:border-4 after:border-solid after:border-t-[#2ea4c2] after:border-[#f1f1f1]"
+											id="loader"></div>
+									</div>
+									<form
+										class="flex flex-row justify-center items-center"
+										action=""
+										method="get"
+										enctype="multipart/form-data">
+										<label
+											class="custom-file-upload w-2/3 h-7 rounded-full m-0.5 mr-1 text-white text-[12px] text-center font-[IranYekanBold] transition-all flex flex-row justify-center items-center cursor-pointer bg-[#1e6889] hover:bg-[#e29fb5] hover:text-black"
+											for="fileToUpload">
+											<input
+												class="hidden"
+												type="file"
+												name="fileToUpload"
+												id="fileToUpload"
+												accept=".jpg, .png, .jpeg, .gif" />
+											آپلود
+										</label>
+										<button
+											class="delete-button w-2/3 h-7 bg-[#2ea4c2] rounded-full m-3 mr-1 text-[13px] text-center font-[IranYekanBold] transition-all cursor-pointer hover:bg-[#e29fb5] hover:border-[#e29fb5] hover:text-white"
+											id="deleteButton">
+											حذف
+										</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="fourth_content w-full flex flex-row justify-start items-center">
+						<div
+							class="best_seller w-full p-5 mx-5 mt-7 bg-white dark:bg-[#1d1d1d] dark:text-white rounded-xl font-[IranYekanBold] flex flex-col justify-center items-start overflow-hidden">
+							<h4 class="text-xl">پر فروش ترین ها</h4>
+							<div
+								class="Contents w-full pt-7 flex flex-row justify-center items-start"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+	<script src="./vendor/swiper/swiper-bundle.min.js"></script>
+	<script src="./vendor/fontawesome/js/all.min.js"></script>
+	<script src="./vendor/chart.js/dist/chart.umd.js"></script>
+	<script src="./js/data.js"></script>
+	<script src="./js/chart.js"></script>
+	<script src="./js/dashboard.js"></script>
+	<script src="./js/upload.js"></script>
+</html>

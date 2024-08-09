@@ -1,0 +1,144 @@
+@font-face {
+	font-family: "IranYekanBlack";
+	src: url("../font/eot/IRANYekanFN-Black.eot");
+	src: local("IRANYekanFN-Black"),
+		url("../font/eot/IRANYekanFN-Black.eot?#iefix") format("embedded-opentype"),
+		url("../font/woff2/IRANYekanFN-Black.woff2") format("woff2"),
+		url("../font/woff/IRANYekanFN-Black.woff") format("woff"),
+		url("../font/ttf/IRANYekanFN-Black.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "IranYekanBold";
+	src: url("../font/eot/IRANYekanFN-Bold.eot");
+	src: local("IRANYekanFN-Bold"),
+		url("../font/eot/IRANYekanFN-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../font/woff2/IRANYekanFN-Bold.woff2") format("woff2"),
+		url("../font/woff/IRANYekanFN-Bold.woff") format("woff"),
+		url("../font/ttf/IRANYekanFN-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "IranYekanMedium";
+	src: url("../font/eot/IRANYekanFN-Medium.eot");
+	src: local("IRANYekanFN-Medium"),
+		url("../font/eot/IRANYekanFN-Medium.eot?#iefix") format("embedded-opentype"),
+		url("../font/woff2/IRANYekanFN-Medium.woff2") format("woff2"),
+		url("../font/woff/IRANYekanFN-Medium.woff") format("woff"),
+		url("../font/ttf/IRANYekanFN-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "FontAwesome";
+	src: url("../font/woff2/fa-regular-400.woff2") format("woff2"),
+		url("../font/ttf/fa-regular-400.ttf") format("truetype");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	list-style-type: none;
+	direction: rtl;
+	scroll-behavior: smooth;
+}
+
+.fa-truck-ramp-box {
+	transform: rotateY(180deg);
+}
+
+input:checked + .slider {
+	background-color: #1e6889;
+}
+
+input:checked + .slider:before {
+	transform: translateX(100%);
+	left: 18%;
+	bottom: 14%;
+	box-shadow: inset 15px -4px 0px 15px #ffd000;
+}
+
+main.main
+	> div.Contents
+	> div.content
+	> div.third_content
+	> div.prof
+	> div.Contents
+	> div.content_1
+	> form
+	> div.wave-group {
+	transform: rotateY(180deg);
+}
+
+main.main
+	> div.Contents
+	> div.content
+	> div.third_content
+	> div.prof
+	> div.Contents
+	> div.content_1
+	> form
+	> div.wave-group
+	> input.input,
+main.main
+	> div.Contents
+	> div.content
+	> div.third_content
+	> div.prof
+	> div.Contents
+	> div.content_1
+	> form
+	> div.wave-group
+	> label.label {
+	transform: rotateY(180deg);
+}
+
+.wave-group .input:focus ~ label .label-char,
+.wave-group .input:valid ~ label .label-char {
+	transform: translateY(-20px);
+	font-size: 14px;
+	color: #2ea4c2;
+}
+
+.wave-group .input:focus ~ .bar:before,
+.wave-group .input:focus ~ .bar:after {
+	width: 50%;
+}
+
+main > div.Contents > div.content > div.second_content > div.welcom > p.time {
+	direction: ltr;
+}
+
+div.new_item_23 {
+	margin-left: 0;
+}
+
+.loader.active {
+	opacity: 1;
+}
+
+.image-preview__image.loaded {
+	opacity: 1;
+}
+
+.after\:bg-red-600::after {
+	content: var(--tw-content);
+	--tw-bg-opacity: 1;
+	background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.before\:bg-red-600::before {
+	content: var(--tw-content);
+	--tw-bg-opacity: 1;
+	background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.\!text-red-600 {
+	--tw-text-opacity: 1 !important;
+	color: rgb(220 38 38 / var(--tw-text-opacity)) !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
